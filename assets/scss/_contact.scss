@@ -1,0 +1,17 @@
+.contact {
+	blockquote {
+		max-width: 40em;
+		@include bp(sm) {
+			margin-left: 5rem;
+		}
+	}
+}
+.contact-form {
+	@include bp(sm) {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.btn-submit {
+		margin-left: 1rem;
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"aboutText": 
+	"I am a web developer out of Dallas, Texas that wants to help your company dive into the vast ocean of the Internet. I can make sure that you'll be found with first class SEO (search engine optimization). I'll make sure you'll be noticed and your users have a great experience with a great design focused on UX/UI (User Experience/User Interface) and your business goals in mind. I will also make sure you're able to connect with your audience like never before with outstanding social media integration, development, and consulting.",
+	"moreAboutText":
+	"I pride myself on being a family man. I work hard every day to be able to set an example for my children and provide for them. I pride myself in my work and work my hardest to produce things that I can really be proud to show off.",
+	"specialties": [
+		{"title": "Responsive Design", "details": "Responsive design is a huge buzzword in the market today but putting all of that aside, no website should be built today without responsive principles in mind. A responsive website will work well on any device, any browser, and any resolution."},
+		{ "title":"WordPress", "details":"WordPress is a great platform for blogging but can also be great for any website where you want a quick and easy CMS for site updates!" },
+		{ "title":"Flex<span>Hub</span>", "details":"FlexHub is a tool I've built for my web clients. This tool allows you to easily keep track of your and make quick and easy updates. This isn't a full featured CMS but is built specifically around websites I build for clients." },
+		{ "title":"non-profit <span>Websites</span>", "details":"Having founded a non-profit myself I know the struggles it takes. Anything I can do to make that experience easier and to help you get your cause off the ground; I’m game! That's why I make a special offering to non-profits looking for web development or getting started with social media." },
+		{ "title":"Political <span>Websites</span>", "details":"Whether you're planning to run a campaign or start a grass-roots movement, I love jumping in on the ground level and helping everyday people get their message out on the vast web." }
+	],
+	"bedata": [{
+		"title": "be Online",  
+		"image": "/assets/img/internet.jpg", 
+		"class": "",
+		"alt": "Be Online and get your company live on the internet.",
+		"details": "Get your business out there. Whether you're a small startup or a larger established business, having a great online presence can make all the difference."
+	},{
+		"title": "be Social",
+		"image": "/assets/img/faces.png",
+		"class": "",
+		"alt": "Be social and stay connect to your community on Facebook - Google Plus - and Twitter.",
+		"details": "Stay connected to your community and help drive business by utilizing social media. Not all social media offerings are created equal, but we have the experience to get the most for your business."
+	},{
+		"title": "get Found",
+		"image": "/assets/img/webmaster.png",
+		"class": "get-found",
+		"alt": "Get Found with world class SEO practices and optimizations.",
+		"details": "SEO is a major part of any web project. Most companies charge you extra for an extra SEO pack. Not at ampnet(media). Our SEO is built into every site enhancing your company’s presence on the web."
+	}]
+}

@@ -1,0 +1,47 @@
+@import "homepage-header";
+
+@import "home-blog-list";
+@import "blog_cards";
+
+@import "home-works";
+
+.homeabout {
+	@extend .container;
+	.img-wrap {
+		@extend .col-1-4;
+		margin-left: -999em;
+		float: left;
+		margin-top: 1.6em;
+		border-radius: 50%;
+		overflow: hidden;
+		max-width: 18em;
+		@include bp(sm) {
+			margin-left: 0;
+		}
+		@include bp(md) {
+			margin-top: 0;
+		}
+	}
+	.text-wrap {
+		@include bp(sm) {
+			float: left;
+			width: 75%;
+			padding-left: 2em;
+			max-width: 40em;
+		}
+	}
+}
+
+.homecontent {
+	@extend .container;
+	.strength-list {
+		padding-left: 2em;
+		border-left: 1em solid $header-font-color;
+		@include bp(sm) {
+			border-left: 2em solid $header-font-color;
+		}
+	}
+}
+section {
+	margin: 1em 0;
+}

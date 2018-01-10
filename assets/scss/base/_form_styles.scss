@@ -1,0 +1,48 @@
+input {
+	height: 2rem;
+	font-size: 1.1rem;
+}
+label {
+	font-size: 1.1rem;
+	font-family: $header-font;
+}
+textarea {
+	font-size: 1.1rem;
+	height: 4rem;
+}
+
+.btn-submit {
+	line-height: 2;
+	font-size: 1.1rem;
+	font-family: $header-font;
+	background: $primary-color;
+	color: #fff;
+	padding: 0 2.4em;
+	cursor: pointer;
+	height: 2.2rem;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+}
+
+.stacked-form {
+	// @include clearfix();
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+	.form-group {
+		padding: 0.3rem 1rem;
+		label {
+			width: 100%;
+			display: block;
+		}
+		input {
+			width: 100%;
+		}
+		textarea {
+			width: 100%;
+		}
+	}
+}

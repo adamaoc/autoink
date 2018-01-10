@@ -1,0 +1,45 @@
+* Tech in my house
+* top (4) short list
+* 2015-12-02
+* tech
+* http://ampnetmedia.com/assets/img/blog/home-tech/mac.jpg | http://ampnetmedia.com/assets/img/blog/home-tech/mac.jpg | http://ampnetmedia.com/assets/img/blog/home-tech/mac.jpg
+* rgba(167, 164, 164, 0.7)
+* published
+* apple, tech, chromebook, family
+
+I'm a pretty tech savvy guy so I have a decent amount of tech laying around the house. Most of this tech I use daily and love, others are just okay. The following is a short list of some of the best tech I've bought over the years and use daily. If you're interested, amazon links will be supplied for each along with an honest assessment of what I think and how I use it.
+
+## MacBook Air
+
+<a rel="nofollow" href="http://www.amazon.com/gp/product/B00VJ1P7TS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00VJ1P7TS&linkCode=as2&tag=ampnetmedia-20&linkId=EYJGLKFAUKY6MC5H"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00VJ1P7TS&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=ampnetmedia-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=ampnetmedia-20&l=as2&o=1&a=B00VJ1P7TS" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+Easily one of the things I use the most is my 13-inch MacBook Air. I bought this thing just over a year ago now and haven't regretted the decision once. When it was time to buy I was throwing around ideas of getting the 13-inch Pro or even the 15-inch Pro. I do web development work, image manipulation work, and some light video editing and I wanted to make sure the computer I bought was going to be able to hold up to the workload. At the time I was using a 15-inch Pro for work and new it could handle anything I threw at it but as a laptop I really think the 15-inch is a little too big. At the house I don't really have a desk with a monitor and all so when I work at home it's with my laptop sitting in my lap. The 13-inch MacBooks are a much better fit for that. Obviously, I ended up going with the Air over the Pro and it's probably no surprise that price was a factor. The Air is a few hundred dollars cheaper than the Pro and although you're sacrificing quite a bit it was one I needed to make. In the end though, the Air has help up to everything I've done with it and has been great for me!   
+[MacBook Air Deal - HERE](http://www.amazon.com/gp/product/B00VJ1P7TS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00VJ1P7TS&linkCode=as2&tag=ampnetmedia-20&linkId=EYJGLKFAUKY6MC5H)
+
+## Apple Time Capsule and Airport Express
+
+<a rel="nofollow" href="http://www.amazon.com/gp/product/B00DBA1VYU/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DBA1VYU&linkCode=as2&tag=ampnetmedia-20&linkId=UTL7WYQKRQIW6MAX"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00DBA1VYU&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=ampnetmedia-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=ampnetmedia-20&l=as2&o=1&a=B00DBA1VYU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a rel="nofollow" href="http://www.amazon.com/gp/product/B00M4L4OKA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00M4L4OKA&linkCode=as2&tag=ampnetmedia-20&linkId=7AGEARBKMOUOASIT"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00M4L4OKA&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=ampnetmedia-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=ampnetmedia-20&l=as2&o=1&a=B00M4L4OKA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+I don't know if I have bad luck with networking equipment but I've been through quite a few routers in my days. I never really knew what to think about Apples system and how it would connect to non-Apple devices. After my 3rd crapped out router, in as many years, I finally decided I'd give Apple's hardware a shot. I was looking at getting a wireless backup hard drive at the time anyways and thought I could just kill two birds with one credit card stone. The new Time Capsule is not just a hard drive it can also be the Airport router for all your wifi devices. I bought the 2TB model and hooked it up right away. Like any other Apple product the unboxing was great and installation and setup were a breeze. Everything was able to jump on the network with ease and gaining access to the hard drive was a cinch; even setting it up with Time Machine from my MacBook was easily done. The only issue I've encountered is the range of the signal. We started seeing areas of our upstairs and very far corners of the house that were no longer getting a connection. Unfortunately, the way my house is wired, the Time Capsule sits in a far corner and I don't have many other options. I did some more research and ended up ordering a little Airport Express of Amazon for cheep! I plugged it into the power outlet by our TV upstairs and configured it, via the Airport Utility app, to extend the already available wifi signal. This solution has worked out great and I've been running it for almost 2-years with absolutely no issues. [Time Capsule - HERE](http://www.amazon.com/gp/product/B00DBA1VYU/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00DBA1VYU&linkCode=as2&tag=ampnetmedia-20&linkId=UTL7WYQKRQIW6MAX) | [Airport Express - HERE](http://www.amazon.com/gp/product/B00M4L4OKA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00M4L4OKA&linkCode=as2&tag=ampnetmedia-20&linkId=7AGEARBKMOUOASIT)
+
+## Chromebook Flip
+
+<a rel="nofollow" href="http://www.amazon.com/gp/product/B00ZS4HK0Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00ZS4HK0Q&linkCode=as2&tag=ampnetmedia-20&linkId=AOWCEEVCCLKARQMC"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ZS4HK0Q&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=ampnetmedia-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=ampnetmedia-20&l=as2&o=1&a=B00ZS4HK0Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+__ASUS Chromebook Flip 10.1-Inch Convertible 2 in 1 Touchscreen (Rockchip, 4 GB, 16GB SSD, Silver)__
+
+I've been wanting to get a Chromebook for a while now and finally pulled the trigger, and only about a month ago. This is my wife's daily driver as all she really needs is a web browser and something super portable. As soon as I saw the Flip I knew it was exactly what I wanted to get her. The touchscreen display flips completely around (hence the name Flip) turning the small laptop into a decent sized tablet. The build quality is good, the screen is nice, the keyboard and trackpad are great, and it performs flawlessly. I did opt for the 4GB of RAM model over the 2GB just to make sure it wouldn't give her any trouble while multi-taking; it's only a $50 upgrade. This has worked out great for her and I've even been picking it up to watch YouTube videos or do a little web browsing of my own.
+[Asus Chromebook Flip - HERE](http://www.amazon.com/gp/product/B00ZS4HK0Q/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00ZS4HK0Q&linkCode=as2&tag=ampnetmedia-20&linkId=AOWCEEVCCLKARQMC)
+
+## JBL Flip 2 Wireless Portable Stereo Speaker
+
+<a rel="nofollow" href="http://www.amazon.com/gp/product/B00J9O4B6W/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00J9O4B6W&linkCode=as2&tag=ampnetmedia-20&linkId=FA4RZSBXQ3CFFKZ5"><img border="0" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00J9O4B6W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=ampnetmedia-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=ampnetmedia-20&l=as2&o=1&a=B00J9O4B6W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+We like music in our house and I've owned a few iHome (and competing) products over the years so I can hook my phone up to a speaker and play some music while we're cleaning around the house or just want some background noise while working. Like many other purchases, I was looking at bluetooth speakers for a while before finally deciding on this JBL. I'm able to pair my phone quickly with no problems and it's delivers great sound quality. It even gets incredibly loud for such a small footprint. This is another piece of tech I find myself using almost every day and haven't regretted the purchase one bit.
+[JBL Flip 2 - HERE](http://www.amazon.com/gp/product/B00J9O4B6W/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00J9O4B6W&linkCode=as2&tag=ampnetmedia-20&linkId=FA4RZSBXQ3CFFKZ5)
+
+
+<hr />
+
+I'll be doing a few more of these with other tech I use including what's in my backpack for shooting video for [txGarage](http://txgarage.com) and much more! If you liked this article, please let us know by giving us a shout on [twitter @ampnetmedia](https://twitter.com/ampnetmedia).

@@ -1,0 +1,66 @@
+{
+	"siteLinks": [{
+		"pagename": "Home",
+		"slug": "home",
+		"image": "#home",
+		"details": "Homepage",
+		"link": "/",
+		"target": "_self"
+	},{
+		"pagename": "Video",
+		"slug": "video",
+		"image": "#video",
+		"details": "Professional Web Video",
+		"link": "/video/",
+		"target": "_self"
+	},{
+		"pagename": "Web",
+		"slug": "web",
+		"image": "#web",
+		"details": "Web Design/Dev",
+		"link": "/web/",
+		"target": "_self"
+	},{
+		"pagename": "Ads",
+		"slug": "ads",
+		"image": "#ads",
+		"details": "Web Advertising",
+		"link": "/ads/",
+		"target": "_self"
+	},{
+		"pagename": "Social",
+		"slug": "social",
+		"image": "#social",
+		"details": "Social Media",
+		"link": "/social/",
+		"target": "_self"
+	},{
+		"pagename": "Blog",
+		"slug": "blog",
+		"image": "#blog",
+		"details": "Adam Moore's blog posts",
+		"link": "/blog/",
+		"target": "_self"
+	},{
+		"pagename": "Works",
+		"slug": "work",
+		"image": "#work",
+		"details": "Adam Moore's Portfolio of Work",
+		"link": "/work/",
+		"target": "_self"
+	},{
+		"pagename": "About",
+		"slug": "about",
+		"image": "#about",
+		"details": "About ampnetmedia",
+		"link": "/about/",
+		"target": "_self"
+	},{
+		"pagename": "Contact",
+		"slug": "contact",
+		"image": "#contact",
+		"details": "Contact ampnetmdia",
+		"link": "/contact/",
+		"target": "_self"
+	}]
+}

@@ -1,0 +1,30 @@
+.home-work-list {
+	overflow: hidden;
+	.worklist {
+		list-style: none;
+		overflow: hidden;
+	}
+	.workitem {
+		@include bp(sm) {
+			width: 50%;
+			float: left;
+			padding: 0 1em;
+			overflow: hidden;
+			min-height: 35em;
+		}
+	}
+	.details {
+		text-decoration: none;
+		text-align: justify;
+	}
+	.imgwrap {
+		padding: 1em;
+		img {
+			width: 100%;
+		}
+	}
+	.btn {
+		float: right;
+		margin-right: 1em;
+	}
+}

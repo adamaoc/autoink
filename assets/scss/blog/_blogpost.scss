@@ -1,0 +1,24 @@
+.meta {
+	max-width: 45em;
+	margin: 0 auto;
+}
+.post {
+	max-width: 45em;
+	margin: 0 auto;
+	img {
+		max-width: 100%;
+	}
+
+	.codepen-code {
+		@include bp(md) {
+			margin-left: -5em;
+			margin-right: -5em;
+		}
+	}
+	.inner-blog-photo {
+		border-top: 3px solid $primary-color;
+		border-bottom: 3px solid $primary-color;
+		margin: 1em auto;
+		max-width: 100%;
+	}
+}

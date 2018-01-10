@@ -1,0 +1,112 @@
+.homepage {
+  &__section {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 900px) {
+      flex-direction: row;
+    }
+    &__image,
+    &__details {
+      flex-basis: 50%;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+    &__image {
+      background-repeat: no-repeat;
+      background-size: contain;
+      min-height: 350px;
+      &--video {
+        background-image: url("/assets/img/sections/video-section.jpg");
+        background-position: left center;
+      }
+      &--web {
+        background-image: url("/assets/img/sections/web-section.jpg");
+        background-position: right center;
+      }
+      &--ads {
+        background-image: url("/assets/img/sections/web-ads.jpg");
+        background-position: right bottom;
+      }
+      &--social {
+        background-image: url("/assets/img/sections/social.png");
+        background-position: center bottom;
+      }
+    }
+
+    &__details-wrap {
+      padding: 1em;
+      @media (min-width: 400px) {
+        padding: 2em;
+      }
+      @media (min-width: 769px) {
+        max-width: 600px;
+
+        &--left {
+          margin-left: auto;
+        }
+      }
+    }
+    .type-large {
+      font-size: 1.3rem;
+      font-weight: 100;
+    }
+  }
+
+  &__dark-section {
+    background: #2b2a34;
+    color: #d9d9d9;
+    margin-top: 2em;
+    padding-top: 2em;
+
+    h2,
+    h5 {
+      color: #d9d9d9;
+      text-align: center;
+    }
+
+    h4 {
+      color: #d9d9d9;
+      margin-bottom: 1rem;
+    }
+
+    svg {
+      fill: #d9d9d9;
+    }
+  }
+
+  .homepage__section__details {
+    margin-bottom: 2em;
+  }
+
+  .omg-testimonial {
+    background: transparent;
+  }
+}
+
+.bgwrap--light {
+  background: #f6f7f9;
+  position: relative;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  padding-top: 2em;
+  &:before {
+    content: "";
+    position: absolute;
+    top: -137px;
+    height: 137px;
+    right: 0;
+    z-index: -1;
+    left: 0;
+    background: linear-gradient(175deg, #ffffff 0%, #ffffff 50%, #f6f7f9 51%, #f6f7f9 100%);
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -150px;
+    height: 150px;
+    right: 0;
+    left: 0;
+    background: linear-gradient(175deg, #f6f7f9 0%, #f6f7f9 50%, #ffffff 51%, #ffffff 100%);
+  }
+}

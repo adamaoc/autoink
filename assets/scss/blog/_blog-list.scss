@@ -1,0 +1,35 @@
+.blog-list-page .bloglist {
+	.blogitem {
+		list-style: none;
+		overflow: hidden;
+		padding: 1em 0;
+		border-bottom: 5px solid lighten($primary-color, 30%);
+	}
+	.meta {
+		display: block;
+		padding: 1em 0;
+	}
+	.details {
+		display: block;
+		overflow: hidden;
+		text-decoration: none;
+	}
+	.imgwrap {
+		max-height: 10em;
+		overflow: hidden;
+		@include bp(sm) {
+			width: 30%;
+			float: left;	
+		}
+		img {
+			max-width: 100%;
+		}
+	}
+	.excerpt {
+		@include bp(sm) {
+			width: 70%;
+			float: left;	
+			padding-left: 1em;
+		}
+	}
+}

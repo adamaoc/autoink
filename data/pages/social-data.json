@@ -1,0 +1,38 @@
+{
+	"socialData": [{
+		"username": "@adamaoc",
+		"title": "Twitter",
+		"slug": "twitter",
+		"image": "#twitter",
+		"details": "Adam Moore on twitter",
+		"link": "http://twitter.com/adamaoc"
+	},{
+		"username": "adammoore214",
+		"title": "Linkedin",
+		"slug": "linkedin",
+		"image": "#linkedin",
+		"details": "Adam Moore on Linkedin",
+		"link": "https://www.linkedin.com/in/adammoore214"
+	},{
+		"username": "adamaoc",
+		"title": "GitHub",
+		"slug": "github",
+		"image": "#github",
+		"details": "Adam Moore's repositories on GitHub",
+		"link": "http://github.com/adamaoc"
+	},{
+		"username": "adamaoc",
+		"title": "Instagram",
+		"slug": "instagram",
+		"image": "#instagram",
+		"details": "Adam Moore's profile on Instagram",
+		"link": "http://instagram.com/adamaoc"
+	},{
+		"username": "adamaoc",
+		"title": "CodePen",
+		"slug": "codepen",
+		"image": "#codepen",
+		"details": "Adam Moore's profile on Codepen",
+		"link": "http://codepen.io/adamaoc"
+	}]
+}

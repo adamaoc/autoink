@@ -1,0 +1,35 @@
+.work-list-page {
+	.worklist {
+		list-style: none;
+	}
+	.workitem {
+		overflow: hidden;
+		padding: 1em;
+		border-bottom: 5px solid lighten($primary-color, 30%);
+	}
+	.details {
+		display: block;
+		overflow: hidden;
+		text-decoration: none;
+		.imgwrap {
+			text-align: center;
+			@include bp(sm) {
+				width: 30%;
+				float: left;
+			}
+			img {
+				max-width: 100%;
+			}
+		}
+		.excerpt {
+			@include bp(sm) {
+				width: 70%;
+				float: left;
+				padding-left: 1em;
+				p {
+					margin-top: .5em;
+				}
+			}
+		}
+	}
+}
