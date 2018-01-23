@@ -9,7 +9,6 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9674179-19"></script>
-
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -17,8 +16,10 @@
 
       gtag('config', 'UA-9674179-19');
     </script>
-
-    <?php //<script src="/assets/js/main.js"></script> ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <script src="/assets/js/vendor/fitvids.js"></script>
+    <script src="/assets/js/main.js"></script>
 
   </body>
 </html>

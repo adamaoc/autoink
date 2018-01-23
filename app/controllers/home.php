@@ -42,7 +42,7 @@ class Home extends Controller
 			"class" => "homeheader"
 		);
 
-		$worklist = $works->getList(0,2);
+		$worklist = $works->getList(0,6);
 		$bloglist = $blogs->getList(0,3);
 
 		$this->view('home/index', array(

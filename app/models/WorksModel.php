@@ -1,6 +1,6 @@
 <?php
 
-class WorksModel 
+class WorksModel
 {
 	public $pageTitle = "Works";
 	public $pageSlogan = "DFW Web Development and Design";
@@ -26,6 +26,9 @@ class WorksModel
 	{
 
 		$list = $this->getAllPosts();
+    if (count($list) < $endnum) {
+      return $list;
+    }
 
 		array_multisort($list, SORT_DESC);
 
@@ -41,11 +44,11 @@ class WorksModel
 	{
 		$buildarr = array();
 
-		if($dh = opendir($this->worksdir)) 
+		if($dh = opendir($this->worksdir))
 		{
-			while(false !== ($entry = readdir($dh))) 
+			while(false !== ($entry = readdir($dh)))
 			{
-				if(substr(strrchr($entry,'.'),1)==ltrim('md', '.')) 
+				if(substr(strrchr($entry,'.'),1)==ltrim('md', '.'))
 				{
 					// Define the blog file.
                 	$post = file($this->worksdir.$entry);
@@ -66,7 +69,7 @@ class WorksModel
 
 		if(empty($postarr)) {
 			// TODO
-			// should redirect to a 404 page... 
+			// should redirect to a 404 page...
 			echo "404";
 		}else{
 			return $postarr;
@@ -74,7 +77,7 @@ class WorksModel
 
 	}
 
-	private function buildPost($post) 
+	private function buildPost($post)
 	{
 
 		require_once $_SERVER['DOCUMENT_ROOT']."/app/core/Parsedown.php";
@@ -88,7 +91,7 @@ class WorksModel
     	$blog_subtitle = str_replace(array("\n", '* '), '', $post[1]);
     	$blog_pubdate = str_replace(array("\n", '* '), '', $post[2]);
     	$blog_cat = str_replace(array("\n", '* '), '', $post[3]);
-    	
+
     	$blog_img = str_replace(array("\n", '* '), '', $post[4]);
 
     	if($blog_img == "default") {

@@ -1,4 +1,6 @@
-<?php foreach ($data as $tag) : 
-	$tag = trim($tag); ?>
-	<a href="/blog/tag/<?= $tag ?>"><?= $tag ?></a>
+<?php foreach ($data as $tag) :
+	$tag = trim($tag);
+  $tag = str_replace(' ', '', $tag);
+  $tag = str_replace('-', '', $tag); ?>
+	#<?= $tag ?>
 <?php endforeach; ?>

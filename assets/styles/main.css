@@ -71,8 +71,7 @@ body {
     display: table;
     clear: both; }
   .container h1, .homeabout h1, .homecontent h1 {
-    line-height: 1.2;
-    text-align: right; }
+    line-height: 1.2; }
     .container h1 small, .homeabout h1 small, .homecontent h1 small {
       font-size: 2rem;
       line-height: 1;
@@ -687,8 +686,9 @@ textarea {
   background-image: url("/assets/img/headers/autoink-header-banner.jpg");
   background-size: cover;
   background-position: center center;
-  background-color: #fff;
   background-repeat: no-repeat;
+  background-color: #333;
+  background-blend-mode: soft-light;
   color: #444;
   min-height: 80vh;
   display: flex;
@@ -1002,12 +1002,20 @@ section {
     padding-left: 1em; } }
 
 .meta {
-  max-width: 45em;
-  margin: 0 auto; }
+  margin-top: 1em;
+  font-size: 0.75em;
+  font-style: italic; }
 
 .post {
-  max-width: 45em;
-  margin: 0 auto; }
+  max-width: 64em;
+  margin: 0 auto 2em;
+  padding: 1em; }
+  .post h2 {
+    font-size: 2rem;
+    font-weight: 100; }
+  .post__content {
+    margin-bottom: 2em;
+  }
   .post img {
     max-width: 100%; }
   @media (min-width: 60rem) {
@@ -2646,3 +2654,98 @@ label {
   @-ms-viewport {
     width: device-width;
   }
+
+
+
+/* Shelf */
+.shelf__wrap {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.2);
+  z-index: 9000;
+}
+.shelf__btn {
+  width: 100%;
+  background: #547078;
+  border: none;
+  padding: 0.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+.shelf__btn:focus {
+  outline: none;
+}
+.shelf__content {
+  position: fixed;
+  right: -300px;
+  width: 300px;
+  top: 0;
+  bottom: 0;
+  background: #444;
+  color: white;
+  transition: all 300ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -3px 0 8px #333;
+}
+@media (min-width: 40rem) {
+  .shelf__content {
+    right: -500px;
+    width: 500px;
+  }
+}
+.shelf__content.shelf__content--open {
+  right: 0;
+}
+.shelf__content__title {
+  text-align: center;
+  padding: 1em;
+}
+.shelf__content__body {
+  padding: 1em;
+  background: white;
+  flex: 2;
+  overflow-y: scroll;
+}
+.shelf__content__footer button {
+  width: 100%;
+  background: #770505;
+  border: none;
+  color: white;
+  padding: 0.5em;
+}
+
+.worklist {
+  list-style: none;
+}
+.workitem {
+  margin: 1.5em 0;
+}
+.worksbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
+  color: #fff;
+  border: 14px solid #445a5f;
+}
+.worksbox:hover {
+  color: rgba(255,255,255,0.8);
+  border: 14px solid #6c8b92;
+}
+.worksbox h3 {
+  background: rgba(0,0,0,0.4);
+  padding: 0 1em;
+}
+#videoWrap {
+  max-width: 750px;
+  margin: 0 auto;
+}

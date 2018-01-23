@@ -1,6 +1,6 @@
 <?php
 
-class Work extends Controller 
+class Work extends Controller
 {
 
 	public function index($slug = '', $pagenum = '')
@@ -25,6 +25,7 @@ class Work extends Controller
 		$linksdata = $this->model('LinksModel');
 		$sitenav = $linksdata->getSiteLinks();
 		$footerdata = $linksdata->footerLinks();
+    $works = $this->model('WorksModel');
 
 		$headerdata = array(
 			"title" => $post['title']." ".$post['subtitle'],
@@ -32,12 +33,17 @@ class Work extends Controller
 		);
 
 		$pageheader = array(
-			"title" => $post['title'], 
-			"class" => "page-header", 
-			"subtitle" => "<small>".$post['subtitle']."</small>", 
-			"heroimg" => "background-image: url(/assets/img/".$post['imglg'].");", 
-			"postcolor" => "background-color: ".$post['color'].";"
+			// "title" => $post['title'],
+			"class" => "homeheader",
+      "title" => "We work in the automotive industry to help companies build their brands online.",
+      "subtitle" => "Services include: Pro Video, Web Design/Dev, Web Advertising, and Social Media Marketing",
+			// "subtitle" => "<small>".$post['subtitle']."</small>",
+			"heroimg" => "background-image: url(/assets/img/".$post['imglg'].");",
+			"postcolor" => "background-color: ".$post['color'].";",
+      "innerpage" => true
 		);
+
+    $worklist = $works->getList(0,6);
 
 		$this->view('work/single', array(
 			'headerdata' => $headerdata,
@@ -46,8 +52,9 @@ class Work extends Controller
 			'footerdata' => $footerdata,
 			'title' => $model->pageTitle,
 			'slogan' => $model->pageSlogan,
+			"worklist" => $worklist,
 			"post" => $post
-		));	
+		));
 	}
 
 	private function getPages($model, $pagenum)
@@ -88,8 +95,8 @@ class Work extends Controller
 		);
 
 		$pageheader = array(
-			"title" => "Portfolio", 
-			"subtitle" => "<small>by ampnet<span>(media)</span></small>", 
+			"title" => "Portfolio",
+			"subtitle" => "<small>by ampnet<span>(media)</span></small>",
 			"class" => "page-header",
 			"heroimg" => "background-image: url(/assets/img/home-banner.jpg);"
 		);
@@ -116,6 +123,6 @@ class Work extends Controller
 
 		$this->view('work/fulllist', array(
 			"post" => $list
-		));	
+		));
 	}
 }

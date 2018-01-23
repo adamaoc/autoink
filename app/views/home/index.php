@@ -2,10 +2,9 @@
 
 <?php getComponent("pageheader", $data['pageheader']); ?>
 
-<div class="homepage__section homepage__social">
-  <a href="https://www.instagram.com/_autoink/" target="_blank"><img src="/assets/img/logos/ig-logo.png" alt="instagram @_autoink" width="65px" height="65px" /></a>
-  Follow us on instagram - be sure to check out our Highlighted Stories - <a href="https://www.instagram.com/_autoink/" target="_blank"> @_autoink</a>.
-</div>
+<?php getComponent("worksShelf", $data['worklist']); ?>
+
+<?php getComponent("insagramLink"); ?>
 
 <div class="homepage__section">
   <div class="homepage__section__image homepage__section__image--video"></div>
